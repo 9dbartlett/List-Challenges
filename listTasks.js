@@ -21,24 +21,32 @@ function reverse(list){
 function cotains(list,e){
   for(let c = 0; c <= list.length; c++){
     if(list[c] == e){
-      if true(return e){}
-      else(return "this number is not found.")
     }
   }
+  if true(return e){}
+  else(return "this number is not found.")
 }
 //Task 4
 function oddElements(list){
-
+let odd = [];
+for(let o=1, o<o.length, o=o+2){
+  odd.push(list[o])
+}
+return odd;
 }
 
 //Task 5
 function total(list){
-
+let running = 0;
+for(let a = 0, a < list.length, a++){
+  running = running + list[a];
+}
+return running;
 }
 
 //Task 6
 function isPalindrome(list){
-
+for(p = 0; )
 }
 
 //Task 7
