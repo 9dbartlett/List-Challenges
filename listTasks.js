@@ -11,8 +11,8 @@ function largest(list){
 //Task 2
 function reverse(list){
   let esrever = [];
-  for( let b = 0; b <= list.length; b++){
-    //list[b].push to esrever
+  for( let b = 0; b <= list.length; b = b++){
+    esrever.push(list)
   return esrever;
   }
 }
@@ -29,8 +29,8 @@ function cotains(list,e){
 //Task 4
 function oddElements(list){
 let odd = [];
-for(let o=1, o<o.length, o=o+2){
-  odd.push(list[o])
+for(let d=1; d < list.length; d=d+2){
+  odd.push(list[d])
 }
 return odd;
 }
@@ -38,7 +38,7 @@ return odd;
 //Task 5
 function total(list){
 let running = 0;
-for(let a = 0, a < list.length, a++){
+for(let a = 0; a < list.length; a++){
   running = running + list[a];
 }
 return running;
@@ -46,7 +46,14 @@ return running;
 
 //Task 6
 function isPalindrome(list){
-for(p = 0; )
+  for(let f = 0; f < list.length; f++){
+  }
+  let race = list.reverse(list);
+  for(let r = 0; r < list.length; r++){
+    list[f] == list[r];
+  }
+  if true("Yes, it is a Palindrome");
+  else ("No, it is not a Palindrome")
 }
 
 //Task 7
@@ -56,7 +63,14 @@ function recursiveTotal(list){
 }
 //Task 8
 function concatenate(listA, listB){
-
+  let listC = [];
+  for(let a = 0; a < listA.length; a++){
+    listC.push(listA);
+  }
+  for(let b = 0; b < listB.lengt; b++){
+    listC.push(listB);
+  }
+return reverses(listC);
 }
 
 //Task 9
