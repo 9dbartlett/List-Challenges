@@ -53,13 +53,18 @@ function isPalindrome(list){
     list[f] == list[r];
   }
   if true("Yes, it is a Palindrome");
-  else ("No, it is not a Palindrome")
+  else ("No, it is not a Palindrome");
 }
 
 //Task 7
 //Do second to last
 function recursiveTotal(list){
-
+  if(list.length == 0){
+    return 0;
+  }
+  if else(list.length == 1){
+    return list.pop(list);
+  }
 }
 //Task 8
 function concatenate(listA, listB){
